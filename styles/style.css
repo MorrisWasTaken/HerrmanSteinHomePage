@@ -1,0 +1,110 @@
+/* File: styles/style.css */
+/* --- a/file:///c%3A/Users/Morri/Documents/GitHub/HerrmanSteinHomePage/styles/style.css */
+/* +++ b/file:///c%3A/Users/Morri/Documents/GitHub/HerrmanSteinHomePage/styles/style.css */
+/* @@ -1,0 +1,36 @@ */ 
+
+.mozilla-text {
+  font-family: "Mozilla Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.mozilla-text-italic {
+  font-family: "Mozilla Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+.mozilla-text-bold {
+  font-family: "Mozilla Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.mozilla-headline {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200;
+}
+.mozilla-headline-italic {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 200;
+}
+.mozilla-headline-bold {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 200,
+    "wght" 700;
+}
+.mozilla-headline-bold-italic {
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 200,
+    "wght" 700;
+}
+
+
+body {
+  width: 1200px;
+  margin: 50px auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+}
+
+p {
+    font-family: "Mozilla Text", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.5;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #ff0000;
+    text-shadow: 3px 3px 1px black;
+    font-family: "mozilla-headline-bold", sans-serif;
+    font-size: 50px;
+}
+h2, h3 {
+    font-family: "mozilla-headline-bold", sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+a {
+    font-family: "mozilla-headline-italic", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.5;
+}
+li {
+    font-family: "Mozilla Text", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+html {
+    background-color: #ff8080;
+}
