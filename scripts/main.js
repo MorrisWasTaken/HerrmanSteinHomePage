@@ -41,14 +41,14 @@ function setUserName() {
     setUserName(); // Prompt again if name is too long
   }
   localStorage.setItem("name", myName);
-  myHeading.textContent = `Hello, ${myName}. Here are some of my Projects:`;
+  myHeading.textContent = `Greetings, ${myName}. our Projects:`;
 }  
 
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
-  myHeading.textContent = `Welcome Back ${storedName}. Here are some of my Projects:`;
+  myHeading.textContent = `Welcome Back ${storedName}. our Projects:`;
 }
 
 myButton.addEventListener("click", () => {
