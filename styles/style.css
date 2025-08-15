@@ -60,13 +60,14 @@
 
 
 body {
-  width: 1500px;
+  max-width: 1500px;
+  width: 100%;
   margin: 20px auto;
-  background-color: #ff9500;
+  background-color: #ffc5b0;
   padding: 0 20px 20px 20px;
-  border: 3px solid black;
+  border: 3px solid #ff4d2d;
   border-radius: 25px;
-  box-shadow: 0 4px 16px rgba(0,0,0 ,0.08);
+  box-shadow: 0 4px 16px rgba(255,77,45,0.08);
 }
 
 p {
@@ -112,7 +113,7 @@ img {
 }
 
 html {
-    background-color: #ff8080;
+    background-color: #ffe5df;
 }
 
 
@@ -134,4 +135,24 @@ button {
   cursor: pointer;
   font-family: "mozilla-text-bold", sans-serif;
   font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 0;
+}
+
+img, video {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 40px;
 }
